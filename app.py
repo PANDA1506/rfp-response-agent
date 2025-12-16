@@ -23,18 +23,18 @@ st.set_page_config(
 st.markdown("""
 <style>
     div.stButton > button {
-    background-color: #FFE600;   /* EY Yellow */
-    color: #111827;              /* Dark text for contrast */
-    border-radius: 6px;
-    padding: 0.55rem 1.4rem;
-    font-weight: 600;
-    border: none;
-}
+        background-color: #FFE600;   /* EY Yellow */
+        color: #111827;              /* Dark text for contrast */
+        border-radius: 6px;
+        padding: 0.55rem 1.4rem;
+        font-weight: 600;
+        border: none;
+    }
 
-div.stButton > button:hover {
-    background-color: #FACC15;   /* Slightly darker EY yellow */
-    color: #111827;
-}
+    div.stButton > button:hover {
+        background-color: #FACC15;   /* Slightly darker EY yellow */
+        color: #111827;
+    }
     .main-header {
         font-size: 2.5rem;
         color: #1E3A8A;

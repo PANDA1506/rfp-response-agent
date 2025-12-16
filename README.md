@@ -1,7 +1,7 @@
 
 ---
 
-# 🧠 Enterprise RFP Response Automation Platform
+#  Enterprise RFP Response Automation Platform
 
 An **AI-assisted multi-agent system** that automates enterprise **RFP (Request for Proposal) analysis**, **requirement extraction**, **product matching**, **pricing generation**, and **final response drafting** — all through an interactive **Streamlit web interface**.
 
@@ -9,7 +9,7 @@ This platform is designed for **B2B enterprises** handling complex RFPs from org
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 * **Automated RFP Analysis**
   Extracts technical, commercial, and compliance requirements from RFP documents or raw text.
@@ -34,7 +34,7 @@ This platform is designed for **B2B enterprises** handling complex RFPs from org
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The platform follows a **multi-agent orchestration model**:
 
@@ -58,7 +58,7 @@ The platform follows a **multi-agent orchestration model**:
 
 ---
 
-## 🖥️ Application Screens
+##  Application Screens
 
 * **Dashboard** – Executive overview, metrics, and agent architecture
 * **New RFP Analysis** – Upload or paste RFP content
@@ -68,7 +68,7 @@ The platform follows a **multi-agent orchestration model**:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 rfp-response-agent/
@@ -94,7 +94,7 @@ rfp-response-agent/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1️⃣ Clone the Repository
 
@@ -130,7 +130,7 @@ http://localhost:8501
 
 ---
 
-## ☁️ Deployment
+##  Deployment
 
 This app can be deployed easily using:
 
@@ -142,7 +142,7 @@ This app can be deployed easily using:
 
 ---
 
-## 📊 Confidence Scoring Logic (High-Level)
+##  Confidence Scoring Logic (High-Level)
 
 The confidence score is derived from:
 
@@ -159,7 +159,7 @@ This helps teams decide whether the response is:
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 * Enterprise sales & pre-sales teams
 * Consulting firms handling multiple RFPs
@@ -169,7 +169,7 @@ This helps teams decide whether the response is:
 
 ---
 
-## 🔐 Security & Privacy
+##  Security & Privacy
 
 * No external API calls by default
 * No data is stored externally
@@ -177,7 +177,7 @@ This helps teams decide whether the response is:
 
 ---
 
-## 🛠️ Future Enhancements
+##  Future Enhancements
 
 * DOCX / PDF export
 * Role-based access control
@@ -188,18 +188,12 @@ This helps teams decide whether the response is:
 
 ---
 
-## 📌 Disclaimer
+##  Disclaimer
 
 This project is a **prototype / MVP** intended for demonstration, learning, and evaluation purposes.
 Commercial use would require further validation, security hardening, and domain customization.
 
 ---
 
-## 👤 Author
 
-Developed by **Gautam**
-B.Tech CSE (Cloud Computing & Automation)
-Focused on applied AI systems, automation, and enterprise solutions.
-
----
 

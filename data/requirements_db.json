@@ -1,0 +1,22 @@
+{
+  "common_requirements": [
+    {
+      "id": "REQ-001",
+      "text": "System must support 99.9% uptime",
+      "category": "reliability",
+      "keywords": ["uptime", "availability", "reliability"]
+    },
+    {
+      "id": "REQ-002",
+      "text": "Must provide 24/7 technical support",
+      "category": "support",
+      "keywords": ["support", "24/7", "technical", "helpdesk"]
+    },
+    {
+      "id": "REQ-003", 
+      "text": "Must be SOC2 Type II certified",
+      "category": "security",
+      "keywords": ["soc2", "certified", "security", "compliance"]
+    }
+  ]
+}

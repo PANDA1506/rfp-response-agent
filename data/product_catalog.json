@@ -1,0 +1,113 @@
+{
+  "products": [
+    {
+      "sku": "TC-CLD-ENTERPRISE",
+      "name": "Enterprise Cloud Platform",
+      "category": "Cloud Infrastructure",
+      "description": "Enterprise-grade cloud platform for large corporations with 99.95% uptime SLA",
+      "specs": {
+        "uptime": "99.95%",
+        "scaling": "auto-scaling, predictive scaling",
+        "support": "24/7 enterprise support with 2-hour response",
+        "security": "SOC2 Type II, ISO 27001 certified",
+        "api": "REST API, GraphQL, SOAP",
+        "compliance": "GDPR, HIPAA, PCI DSS ready",
+        "encryption": "AES-256 at rest, TLS 1.3 in transit",
+        "integration": "SAP, Oracle, Salesforce APIs"
+      },
+      "technical_keywords": ["cloud", "enterprise", "uptime", "security", "compliance", "erp", "integration", "sap", "oracle"],
+      "base_price": 75000,
+      "unit": "per instance/month",
+      "target_clients": ["Manufacturing", "Finance", "Retail", "Services"],
+      "discount_tiers": [
+        {"min_units": 10, "discount": 15},
+        {"min_units": 50, "discount": 25},
+        {"min_units": 100, "discount": 30}
+      ]
+    },
+    {
+      "sku": "SRV-MFG-PLANT",
+      "name": "Manufacturing Plant Server",
+      "category": "Industrial Hardware",
+      "description": "Ruggedized servers for manufacturing environments with industrial certifications",
+      "specs": {
+        "environment": "Industrial grade (0-50°C)",
+        "processors": "Intel Xeon Industrial Series",
+        "ram": "128GB ECC Industrial Memory",
+        "storage": "8TB SSD RAID with hot-swap",
+        "redundancy": "Dual power, redundant cooling",
+        "warranty": "5 years onsite",
+        "compliance": "ISO 9001, Industry 4.0"
+      },
+      "technical_keywords": ["server", "manufacturing", "industrial", "rugged", "plant", "iot", "industry4.0"],
+      "base_price": 850000,
+      "unit": "per server",
+      "target_clients": ["Manufacturing", "Automotive", "Industrial"],
+      "discount_tiers": [
+        {"min_units": 5, "discount": 10},
+        {"min_units": 20, "discount": 20}
+      ]
+    },
+    {
+      "sku": "IOT-MFG-500",
+      "name": "IoT Manufacturing Suite",
+      "category": "IoT & Automation",
+      "description": "Complete IoT solution for manufacturing plants with 500+ sensor support",
+      "specs": {
+        "sensors": "500+ concurrent sensors",
+        "dashboard": "Real-time production monitoring",
+        "analytics": "Predictive maintenance ML models",
+        "integration": "SAP, Oracle ERP integration",
+        "mobile": "iOS/Android manager app",
+        "availability": "99.9% during production hours"
+      },
+      "technical_keywords": ["iot", "manufacturing", "sensors", "predictive", "maintenance", "real-time", "dashboard"],
+      "base_price": 2500000,
+      "unit": "per plant deployment",
+      "target_clients": ["Manufacturing", "Automotive", "Industrial"],
+      "discount_tiers": [
+        {"min_units": 2, "discount": 5},
+        {"min_units": 5, "discount": 15}
+      ]
+    },
+    {
+      "sku": "SEC-ENTERPRISE-PKG",
+      "name": "Enterprise Security Package",
+      "category": "Security",
+      "description": "Complete security solution for enterprise compliance requirements",
+      "specs": {
+        "encryption": "AES-256, TLS 1.3",
+        "compliance": "ISO 27001, SOC2, GDPR",
+        "authentication": "Multi-factor, SSO",
+        "monitoring": "24/7 SIEM with 5-year logs",
+        "patching": "48-hour security updates"
+      },
+      "technical_keywords": ["security", "compliance", "iso27001", "soc2", "gdpr", "encryption", "authentication"],
+      "base_price": 180000,
+      "unit": "per month",
+      "target_clients": ["All Enterprise Clients"],
+      "discount_tiers": [
+        {"min_units": 12, "discount": 10},
+        {"min_units": 36, "discount": 20}
+      ]
+    },
+    {
+      "sku": "API-ERP-INT",
+      "name": "ERP Integration Package",
+      "category": "Integration",
+      "description": "Pre-built integration for SAP, Oracle, and other ERP systems",
+      "specs": {
+        "erp_systems": "SAP, Oracle, Microsoft Dynamics",
+        "api_type": "REST API, SOAP",
+        "authentication": "OAuth 2.0, API keys",
+        "documentation": "Swagger/OpenAPI",
+        "support": "Enterprise SLA"
+      },
+      "technical_keywords": ["api", "integration", "erp", "sap", "oracle", "rest", "soap"],
+      "base_price": 500000,
+      "unit": "one-time development",
+      "target_clients": ["Manufacturing", "Finance", "Retail"],
+      "discount_tiers": []
+    }
+  ]
+}

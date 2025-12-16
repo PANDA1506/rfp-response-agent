@@ -1,0 +1,100 @@
+# ===============================
+# Python cache & compiled files
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===============================
+# Virtual environments
+# ===============================
+venv/
+env/
+.venv/
+ENV/
+.ENV/
+
+# ===============================
+# Streamlit specific
+# ===============================
+.streamlit/
+*.log
+
+# ===============================
+# OS / Editor files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+
+# ===============================
+# Jupyter / Data Science
+# ===============================
+.ipynb_checkpoints/
+*.ipynb
+
+# ===============================
+# Temporary / upload files
+# ===============================
+temp_uploaded_file.*
+*.tmp
+*.bak
+
+# ===============================
+# Environment & secrets
+# ===============================
+.env
+.env.*
+secrets.toml
+
+# ===============================
+# Build / Distribution
+# ===============================
+build/
+dist/
+*.egg-info/
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# Test artifacts
+# ===============================
+.coverage
+pytest_cache/
+
+# ===============================
+# Large files (optional)
+# ===============================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ===============================
+# Model artifacts (if added later)
+# ===============================
+*.pt
+*.pth
+*.h5
+*.onnx
+*.joblib
+*.pkl
+
+# ===============================
+# Local databases
+# ===============================
+*.db
+*.sqlite
+*.sqlite3

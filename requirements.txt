@@ -1,0 +1,14 @@
+streamlit
+python-dotenv
+PyPDF2
+pymupdf
+python-docx
+pandas
+numpy
+scikit-learn
+sentence-transformers
+faiss-cpu
+plotly
+requests
+beautifulsoup4
+spacy
